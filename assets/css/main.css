@@ -1,0 +1,115 @@
+:root {
+  --black: #333;
+  --purple: #f13c6e;
+  --white: #fff;
+  --white_2: #f2f2f2;
+  --gray: #efefef;
+  --gray_2: #c4c4c4;
+  --cyan: #6bd4ff;
+  --deep_purple: #6b67aa;
+  --deep_purple-lite: #9d70ff;
+  --purple: #8574eb;
+  --dark_blue: #211c70;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+  color: var(--deep_purple);
+}
+
+body {
+  background: var(--white);
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.m0 {
+  margin: 0 auto;
+}
+
+.df {
+  display: flex;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fww {
+  flex-wrap: wrap;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcs {
+  justify-content: space-between;
+}
+
+.aic {
+  align-items: center;
+}
+
+.tac {
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  background: #6b67aa;
+}
+
+.nav_header {
+  gap: 43px;
+  padding: 15px 0 11px;
+  color: var(--white_2);
+}
+
+.logo_name {
+  gap: 18px;
+  color: var(--dark_blue);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.phone_btn {
+  gap: 30px;
+}
+
+.logo {
+  width: 79px;
+  padding: 18px 0 23px;
+}
+
+.header_phone {
+  padding: 48px 0;
+}
+
+.header_btn {
+  padding: 10px 55px;
+  color: #6b67aa;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 40px;
+  border: 1px solid var(--deep_purple);
+}
+
+.header_contacts {
+  border-bottom: solid 2px var(--deep_purple);
+}
