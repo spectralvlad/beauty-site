@@ -156,15 +156,7 @@ body {
 }
 
 .nav_head {
-  gap: 20px;
-}
-
-.nav_li {
-  margin-right: 63px;
-}
-
-.nav_li:last-child {
-  margin-right: 0;
+  gap: 83px;
 }
 
 .nav_header-bottom {
