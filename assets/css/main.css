@@ -81,8 +81,6 @@ body {
 .logo_name {
   gap: 18px;
   color: var(--dark_blue);
-  font-size: 24px;
-  font-weight: 700;
   line-height: 32px;
   letter-spacing: 0.1px;
 }
@@ -103,9 +101,6 @@ body {
 .header_btn {
   padding: 10px 55px;
   color: #6b67aa;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 500;
   border-radius: 40px;
   border: 1px solid var(--deep_purple);
 }
