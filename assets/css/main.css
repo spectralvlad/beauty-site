@@ -155,12 +155,11 @@ body {
   color: var(--white_2);
 }
 
-.nav_head {
-  gap: 83px;
-}
-
 .nav_header-bottom {
   color: var(--deep_purple);
+  max-width: 608px;
+  gap: 15px;
+  margin: 0 auto;
 }
 
 .logo_name {
@@ -245,6 +244,7 @@ body {
   background: var(--gradient, linear-gradient(39deg, #6bd4ff 0%, #9d70ff 100%));
   padding: 11px 0 25px;
 }
+
 .card_img {
   width: 184px;
   padding: 0 0 5px;
